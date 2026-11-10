@@ -18,10 +18,10 @@ cin>>distance;
 cout<<"Enter the fuel use rate per 100km: \n";
 cin>>fuel_consumption_per_100km;
 
-cout<<"Enter the price per litter(birr)\n";
+cout<<"Enter the price per litter(birr):\n";
 cin>>price_rate;
 
-cout<<"Enter time in hours and minutes separated by space \n";
+cout<<"Enter time in hours and minutes separated by space: \n";
 cin>>hours>>minutes;
 
 //mathematical and logical calculation
@@ -38,9 +38,9 @@ double speed=distance/time;
 
 //displaying the output
 cout<<fixed<<setprecision(2);
-cout<<"the average speed is   "<<speed<<"\n";
-cout<<"the fuel used "<<fuel_use<<"\n";
-cout<<"the price is "<<price<<"\n";
+cout<<"The average speed is  :"<<speed<<"\n";
+cout<<"The fuel used  is     :"<<fuel_use<<"\n";
+cout<<"The price is          : "<<price<<"\n";
 
 
 return 0;
