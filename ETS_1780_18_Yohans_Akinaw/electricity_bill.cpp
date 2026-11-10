@@ -23,8 +23,8 @@ double total_bill=energy_charge+service_charge;
 //dispaly the output 
 cout<<fixed<<setprecision(2);
 cout<<"The  service charge :"<<service_charge<<"\n";
-cout<<"Energy Charge :"<<energy_charge<<"\n";
-cout<<"Total Bill :"<<total_bill<<"\n";
+cout<<"Energy Charge       :"<<energy_charge<<"\n";
+cout<<"Total Bill          :"<<total_bill<<"\n";
 
 return 0;
 
