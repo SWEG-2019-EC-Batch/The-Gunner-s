@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
 
-//declating the basic variables 
+//declaring the basic variables 
 const int base_units=50;
 const double service_charge=10.0;
 const double unit_cost=1.5;//the cost the user has to pay for the base units 
@@ -16,7 +16,8 @@ cin>>electricity_units;
 
 double energy_charge=(electricity_units<=base_units) ? 
 electricity_units*unit_cost:
-base_units*unit_cost+(electricity_units-base_units)*extra_cost;
+base_units*unit_cost+(electricity_units-base_units)*extra_cost;//the price the user has to pay for energy consuption 
+
 double total_bill=energy_charge+service_charge;
 
 //dispaly the output 
