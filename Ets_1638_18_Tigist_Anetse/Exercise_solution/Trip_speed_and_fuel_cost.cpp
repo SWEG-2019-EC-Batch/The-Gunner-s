@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    double distance;.
+    double distance;
     int hours, minutes;
     double fuel_per_100km;
     double price_per_liter;
@@ -12,7 +12,7 @@ int main() {
     cin >> hours >> minutes;
     cin >> fuel_per_100km;
     cin >> price_per_liter;
-    double total_hours = hours + (minutes /
+    double total_hours = hours + (minutes / 60.0);
     double avg_speed = distance / total_hours;
     double fuel_used = (distance / 100.0) * fuel_per_100km;
     double fuel_cost = fuel_used * price_per_liter;
