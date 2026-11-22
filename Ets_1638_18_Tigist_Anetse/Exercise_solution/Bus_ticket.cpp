@@ -15,17 +15,20 @@ cout<<"enter rate";
 cin>>rate;
 if
      (bag_weight>weight_limit)
-     {extra_charge=(bag_weight-              weight_limit)*rate;}
+     {extra_charge=(bag_weight-weight_limit)*rate;}
      total_value=base_fare+extra_charge;
+   
 cout<<"your trip fare information\n"<<endl;
 cout<<"base_fare:"<<base_fare<<endl<<"extra_charge:"<<extra_charge<<endl<<"total_value:"<<total_value<<endl;
      short int age;
      string is_student;
      float discount;
+   
 cout<<"enter age"<<endl;
 cin>>age;
 cout<<"are you student/?"<<endl;
 cin>>is_student;
+   
 if 
     (age<=0)  discount=0;
 else if 
@@ -52,8 +55,10 @@ else if
    (age<=60&&age>=12&&is_student=="no")
    {base_fare=base_fare;
    discount=0;}
+   
        cout<<"base_fare:"<<base_fare<<endl;
        cout<<"discount:"<<discount;
+   
    int choice;
 
     cout << "===== BUS TICKET SYSTEM =====" << endl;
